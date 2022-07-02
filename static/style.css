@@ -1,0 +1,56 @@
+.form-control{
+    text-align: left;
+}
+
+.convert{
+    margin-top: 15px;
+}
+
+.btn-success{
+    height: 48px;
+    margin-top: -7px;
+}
+
+@media (min-width: 576px){
+    .test{
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 576px){
+    .test{
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 767px){
+    .convert{
+        margin: 0;
+    }
+}
+
+@media (max-width: 424px){
+    .convert{
+        margin: 12px;
+    }
+}
+@media (max-width: 991.98px){
+    .index-page .bg-image{
+        display:none
+    }
+    .index-page {
+        background-image:url(/static/img/index_bg.7d484efd.svg);
+        background-position:100%;
+    }
+}
+
+.bg-image{
+    width: 100%;
+}
+
+h1 {
+    margin:50px 15% 50px 15%;
+    font-family: Roboto;
+    line-height: 50px;
+    color: white;
+}
